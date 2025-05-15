@@ -1,0 +1,51 @@
+/* app/games/page.module.css */
+
+/* Este arquivo contém apenas os estilos globais para a página Games */
+/* A maioria dos estilos específicos foi movida para os componentes individuais */
+
+:root {
+    --primary-color: #3a0ca3;
+    --secondary-color: #4361ee;
+    --accent-color: #7209b7;
+    --background-color: #f8f9fa;
+    --text-color: #212529;
+    --light-gray: #e9ecef;
+    --medium-gray: #adb5bd;
+    --dark-gray: #495057;
+    --success-color: #28a745;
+    --error-color: #dc3545;
+    --warning-color: #ffc107;
+    --border-radius: 8px;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+  }
+  
+  .main {
+    padding: 1rem 0;
+    min-height: calc(100vh - 150px);
+  }
+  
+  .gamesHeader {
+    margin-bottom: 2rem;
+  }
+  
+  .gamesTitle {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+  }
+  
+  .gamesSubtitle {
+    color: var(--dark-gray);
+    font-size: 1.1rem;
+  } 
